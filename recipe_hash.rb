@@ -45,7 +45,7 @@ puts ingredients(perfect_10_recipe)
 
 def amounts(perfect_10_recipe)
   perfect_10_recipe.each do |ingredient,amount|
-    puts "#{amount}"
+    puts "#{amount} #{ingredient}"
   end
 end
 
