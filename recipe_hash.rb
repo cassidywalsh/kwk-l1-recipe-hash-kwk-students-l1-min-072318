@@ -52,7 +52,7 @@ perfect_10_recipe = {
 # puts amounts(perfect_10_recipe)
 
 
-# #6: Return the number of ingredients in the `perfect_10_recipe` hash.
+
 # def number_ingredients(perfect_10_recipe)
 #   return perfect_10_recipe.size
 # end
