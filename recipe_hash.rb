@@ -11,50 +11,49 @@ perfect_10_recipe = {
   :agave => "1/4 cup"
 }
 
-# def recipe_ingredients(perfect_10_recipe)
-#   return perfect_10_recipe
-# end
+def recipe_ingredients(perfect_10_recipe)
+  return perfect_10_recipe
+end
 
-# puts recipe_ingredients(perfect_10_recipe)
-
-
-# def amount_of_chocolate_chips(perfect_10_recipe)
-#   return perfect_10_recipe[:mini_dark_chocolate_chips]
-# end
-
-# puts amount_of_chocolate_chips(perfect_10_recipe)
+puts recipe_ingredients(perfect_10_recipe)
 
 
-# def ingredients_and_amounts(perfect_10_recipe)
-#   perfect_10_recipe.each do |ingredient, amount|
-#     puts "#{ingredient} = #{amount}"
-# end
-# end
+def amount_of_chocolate_chips(perfect_10_recipe)
+  return perfect_10_recipe[:mini_dark_chocolate_chips]
+end
 
-# puts ingredients_and_amounts(perfect_10_recipe)
+puts amount_of_chocolate_chips(perfect_10_recipe)
 
 
-# def ingredients(perfect_10_recipe)
-#   perfect_10_recipe.each do |ingredient, amount|
-#     puts "#{ingredient}"
-# end
-# end
+def ingredients_and_amounts(perfect_10_recipe)
+  perfect_10_recipe.each do |ingredient, amount|
+    puts "#{ingredient} = #{amount}"
+end
+end
 
-# puts ingredients(perfect_10_recipe)
-
-
-# def amounts(perfect_10_recipe)
-#   perfect_10_recipe.each do |ingredient,amount|
-#     puts "#{amount}"
-#   end
-# end
-
-# puts amounts(perfect_10_recipe)
+puts ingredients_and_amounts(perfect_10_recipe)
 
 
+def ingredients(perfect_10_recipe)
+  perfect_10_recipe.each do |ingredient, amount|
+    puts "#{ingredient}"
+end
+end
 
-# def number_ingredients(perfect_10_recipe)
-#   return perfect_10_recipe.size
-# end
+puts ingredients(perfect_10_recipe)
 
-# puts number_ingredients(perfect_10_recipe)
+
+def amounts(perfect_10_recipe)
+  perfect_10_recipe.each do |ingredient,amount|
+    puts "#{amount}"
+  end
+end
+
+puts amounts(perfect_10_recipe)
+
+
+def number_ingredients(perfect_10_recipe)
+  return perfect_10_recipe.size
+end
+
+puts number_ingredients(perfect_10_recipe)
